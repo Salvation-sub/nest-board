@@ -17,3 +17,9 @@
   - pg : Postgres 모듈
 - bcryptjs : `npm install bcryptjs --save`
   > 비밀번호 암호화 할때 사용하는 라이브러리. `import * as bcrypt from "bcryptjs";`
+- jwt : `npm install @nestjs/jwt @nestjs/passport passport passport-jwt @types/passport-jwt --save`
+  - @nestjs/jwt : nestjs에서 jwt를 사용하기 윟래 필요한 모듈
+  - @nestjs/passport: nestjs에서 passport를 사용하기 위해 필요한 모듈
+  - passport : passport 모듈
+  - passport-jwt: jwt 모듈
+  - @types/passport-jwt: passport-jwt 모듈을 위한 타입 정의 모듈
