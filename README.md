@@ -15,3 +15,5 @@
   - @nestjs/typeorm : NestJS 에서 TypeOrm을 사용하기 위해 연동시켜주는 모듈
   - typeorm : TypeORM 모듈
   - pg : Postgres 모듈
+- bcryptjs : `npm install bcryptjs --save`
+  > 비밀번호 암호화 할때 사용하는 라이브러리. `import * as bcrypt from "bcryptjs";`
