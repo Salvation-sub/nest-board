@@ -23,3 +23,19 @@
   - passport : passport 모듈
   - passport-jwt: jwt 모듈
   - @types/passport-jwt: passport-jwt 모듈을 위한 타입 정의 모듈
+
+## 환경 변수 설정
+
+- `npm install config --save`
+
+- Codebase: XML, JSON, YAML 파일같이 일반적으로 노출되도 상관 없는 정보들
+- Environment Variables: 비밀번호나 API Key같은 노출되면 안되는 정보들
+
+### config 모듈을 이용한 설정 파일 생성
+
+1. 루트 디렉토리에 config라는 폴더를 만든 후에 그 폴더 안에 JSON이나 YAML 형식의 파일을 생성합니다. config/deafult.yaml
+2. config 폴더 안에 default.yml , development.yml, 그리고 production.yml 파일을 생성하겠습니다.
+
+- default.yml : 기본설정(개발 환경 설정이나 운영 환경 설정에도 적용됨)
+- development.yml: default.yml에서 설정한것 + 개발 환경에서 필요한 정보
+- production.yml: default.yml에서 설정한 것 + 운영 환경에서 필요한 정보
